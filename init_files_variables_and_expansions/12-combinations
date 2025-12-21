@@ -1,5 +1,7 @@
 #!/bin/bash
-echo -e 'for i in {a..z}\ndo for j in {a..z}\ndo if [ "$i$j" != "oo" ]\nthen echo "$i$j"\nfi\ndone\ndone'
+printf "%s\n" {a..z}{a..z} | grep -v ^oo$
+
+
 
 
 

@@ -1,11 +1,18 @@
 #!/usr/bin/env bash
-
+# Print "Best School" 10 times using while
 i=1
-while [ "$i" -le 10 ]
+while [ $i -le 10 ]
 do
     echo "Best School"
-    i=$((i + 1))
+    i=$((i + 1)) # Increment
 done
+
+
+
+
+
+
+
 
 
 

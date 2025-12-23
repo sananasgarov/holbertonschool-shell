@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#loop that stops with ctrl+C
+trap 'exit' INT
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done

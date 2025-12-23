@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displays only bash commands
+# shellcheck disable=SC2009
+ps -ef | grep "[b]ash"

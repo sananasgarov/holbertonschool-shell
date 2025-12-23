@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#terminates project
+pkill -f 7-highlander

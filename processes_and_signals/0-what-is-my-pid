@@ -1,3 +1,5 @@
-#!/bin/bash
-# Bu skript öz PID-sini göstərir
-echo $BASHPID
+#!/usr/bin/env bashi
+#Write a Bash script that displays its own PID
+echo $$
+
+
